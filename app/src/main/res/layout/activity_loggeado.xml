@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ground"
+    tools:context=".Loggeado">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="0dp"
+        android:text="EMPECEMOS"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btnjugar"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="60dp"
+
+        android:background="@drawable/gradient"
+        android:text="JUGAR" />
+
+    <Button
+        android:id="@+id/btnresult"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnjugar"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="34dp"
+
+        android:background="@drawable/gradient"
+        android:text="MEJORES RESULTADOS" />
+
+    <Button
+        android:id="@+id/btnrmund"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnresult"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/gradient"
+        android:text="RANKING MUNDIAL" />
+
+    <Button
+        android:id="@+id/btnconf"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnrmund"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/gradient"
+        android:text="CONFIGURACION" />
+
+    <Button
+        android:id="@+id/btnusuario"
+        android:layout_width="207dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/btnconf"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="34dp"
+
+        android:layout_marginBottom="79dp"
+        android:background="@drawable/gradient"
+        android:text="USUARIO" />
+</RelativeLayout>

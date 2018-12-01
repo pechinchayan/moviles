@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "981289326740",
+    "firebase_url": "https://juego-b2dd4.firebaseio.com",
+    "project_id": "juego-b2dd4",
+    "storage_bucket": "juego-b2dd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981289326740:android:3aeb625a6f47a0f1",
+        "android_client_info": {
+          "package_name": "com.example.jhams.juego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981289326740-nvmsa3b8o051itokk1mpe3i4m63sjp8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw6KuULx62a_tX-biNDZfEa3Mz815dM0Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
